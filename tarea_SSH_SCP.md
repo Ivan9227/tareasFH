@@ -69,6 +69,7 @@ Este comando establece una conexión SSH desde el cliente (máquina A) al servid
 - **ssh** es el programa que invoca la conexión a través del terminal a la otra maquina. 
 - **brais** es el usuario de la otra maquina con el que queremos iniciar la conexión.
 - **172.172.172.4** es la ip de la maquina a la que nos conectamos. Si disponemos de un DNS podríamos utilizar directamente el nombre que la maquina tenga asignado directamente.
+- **¿Qué se crea cuando nos conectamos al servidor desde el cliente?** Lo que se crea es un archivo en /etc/ssh que contine la informacion de la conexion, por lo que las proximas conexiones que se haran ya no las interpreta como hosts desconocidos y no nos pedira confirmacion cuando queramos conectar las siguientes veces.
 
 
 Al ser la primera conexión nos pregunta si estamos seguros, ya que no conoce la autenticidad del host y nos proporciona la huella digital de la clave. le decimos "yes".
