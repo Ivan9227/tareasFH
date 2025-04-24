@@ -1,2 +1,3 @@
 # tareasFH
-**NOTE:** Hola
+[!NOTE]
+Hola
