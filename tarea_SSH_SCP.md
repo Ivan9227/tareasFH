@@ -116,7 +116,7 @@ for i in {1..200}; do echo "Este es el Archivo $i" > /tmp/prueba3/archivo$i.txt;
 ```
 Transmite el directorio al escritorio del ordenador anfitrión:
  ```bash
- scp -P 2223 -r /tmp/prueba3 ivan@192.168.1.133:C:\Users\ivan0\OneDrive\Desktop
+ scp -P 2223 -r brais@localhost:/tmp/prueba3 C:\Users\ivan0\OneDrive\Desktop
 ```
 
 ### 10. Generar par de claves en el cliente y conexión con el servidor
